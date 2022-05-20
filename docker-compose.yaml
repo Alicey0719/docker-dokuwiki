@@ -4,7 +4,7 @@ services:
     image: bitnami/dokuwiki:20200729.0.0-debian-10-r595
     ports:
       - '30106:8443'
-      - '443:443'
+      # - '443:443'
     environment:
       DOKUWIKI_USERNAME: admin
       DOKUWIKI_PASSWORD: admin
